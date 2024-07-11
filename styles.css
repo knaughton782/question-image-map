@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url(Lato/Lato-Italic.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(Lato/Lato-Regular.ttf);
+}
+
+#game-container {
+    text-align: center;
+    margin: 10px auto;
+    width: 600px;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 1.1em;
+}
+
+#hunt-image-container {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+#question {
+    text-align: left;
+
+}
+
+#hunt-image {
+    width: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.marker {
+    position: absolute;
+    background-color: rgb(58, 239, 58);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #024890;
+}
